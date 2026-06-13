@@ -1,30 +1,26 @@
 # Support Worker Toolkit
 
-A simple Python command-line tool designed for disability support workers (NDIS, group homes, SIL). Helps with daily tasks like generating shift summaries, incident reports, checklists, and SCHADS pay estimates.
+Practical tools for NDIS/disability support workers (Rocky Bay, etc.). Includes shift summaries, incident reports, pay calculator, and more.
+
+## 🚀 Deployed Version
+Deployed on Streamlit Cloud: [Your App URL after deployment]
 
 ## Features
-- Interactive menu
-- Shift summary generator
-- Incident report drafter
-- Daily support checklist
-- Basic pay calculator (SCHADS Level 2.1)
-- Client goal tracker (simple)
+- Mobile-friendly web app (PWA - Add to Home Screen)
+- PDF exports for professional documentation
+- Improved SCHADS pay calculator with overtime & penalties
+- Checklists tailored to complex care
 
-## Installation
+## Local Run
 ```bash
 git clone https://github.com/Fuego-Montana/support-worker-toolkit.git
 cd support-worker-toolkit
-python support_toolkit.py
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
-## Usage
-Run the script and follow the prompts. Tailor it to your needs!
+## PWA / Mobile
+- Open the deployed URL on your phone
+- Tap Share → Add to Home Screen
 
-**Examples tailored to your work:**
-- Use for Rocky Bay night shifts, Avenue/Liberty clients
-- Medication, PEG, epilepsy, behavioural notes
-- Person-centred active support
-
-Built for Tony Sule. Expand with more features (PBS, MHFA reflections, etc.).
-
-Contributions welcome!
+Built for Tony Sule. Customize freely!
